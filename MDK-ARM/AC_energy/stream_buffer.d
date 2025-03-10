@@ -1,0 +1,14 @@
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+ac_energy\stream_buffer.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+ac_energy\stream_buffer.o: D:\ARM\ARMCC\Bin\..\include\string.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ac_energy\stream_buffer.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
+ac_energy\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ac_energy\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 2826618614@qq.com, 1, LIC=14HV2-9E3AP-NNLAF-68Z5R-G59I8-6WTFZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  D:\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\28266\Desktop\energy_pro\MDK-ARM\AC_energy.uvprojx
+Project File Date:  12/06/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\ARM\ARMCC\Bin'
+Build target 'AC_energy'
+compiling freertos.c...
+../Core/Inc/rn8302b.h(343): warning:  #1-D: last line of file ends without a newline
+  #endif
+../st7576/at24c02.h(46): warning:  #1-D: last line of file ends without a newline
+  /*! end of the file */
+../Core/Src/freertos.c(60): warning:  #1295-D: Deprecated declaration Range_detection - give arg types
+  void Range_detection();
+../Core/Src/freertos.c(579): warning:  #111-D: statement is unreachable
+  					break;break;
+../Core/Src/freertos.c(591): warning:  #111-D: statement is unreachable
+  					break;break;
+../Core/Src/freertos.c(785): warning:  #550-D: variable "tim"  was set but never used
+  			uint8_t tim;
+../Core/Src/freertos.c(829): warning:  #177-D: variable "tim"  was declared but never referenced
+  			uint8_t tim;
+../Core/Src/freertos.c(1170): warning:  #186-D: pointless comparison of unsigned integer with zero
+  					if(Power_threshold_ALL >= 0 ) 
+../Core/Src/freertos.c(1562): warning:  #177-D: variable "head"  was declared but never referenced
+  		uint8_t head=0xaa;
+../Core/Src/freertos.c(1584): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(BUZZER_GPIO_Port,BUZZER_Pin,key_buzzer);
+../Core/Src/freertos.c(1612): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(ERR_LD_GPIO_Port,ERR_LD_Pin,0);
+../Core/Src/freertos.c(1917): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(PULSE_LD_GPIO_Port,PULSE_LD_Pin,1);
+../Core/Src/freertos.c(1919): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(PULSE_LD_GPIO_Port,PULSE_LD_Pin,0);
+../Core/Src/freertos.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=34812 RO-data=5820 RW-data=496 ZI-data=9952  
+FromELF: creating hex file...
+"AC_energy\AC_energy.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_AC_energy
+  D:/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
